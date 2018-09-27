@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>&mu; Log In</title>
+    <title>&mu;Compartir</title>
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/examples/sign-in/signin.css">
@@ -20,14 +20,14 @@
           <li class="nav-item">
             <a class="nav-link" href="file:///C:/Users/Benjamin/Desktop/inovation/principal.html">Dashboard</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="file:///C:/Users/Benjamin/Desktop/inovation/perfil_personal.html">Mi Perfil<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/Benjamin/Desktop/inovation/perfil_personal.html">Mi Perfil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="file:///C:/Users/Benjamin/Desktop/inovation/solicitud.html">Solicitar Certificado</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="file:///C:/Users/Benjamin/Desktop/inovation/compartir.html">Compartir Perfil</a>
+            <a class="nav-link active" href="file:///C:/Users/Benjamin/Desktop/inovation/compartir.html">Compartir Perfil</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Opciones</a>
@@ -41,28 +41,26 @@
       </div>
     </nav>
 
-    <h1 class="mb-5"></h1>
 
-    <form class="form-signin">
-      <h1 class="mb-3"></h1>
-      <h1 class="mb-3 font-weight-normal">&mu;Validate</h1>
-      <img class="mb-4" src="img/web_security.png" alt="" height="150">
-      <h3 class="h5 mb-3 font-weight-normal">Ingresa a tus certificados</h3>
-      <label for="inputEmail" class="sr-only">Correo</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required autofocus>
-      <label for="inputPassword" class="sr-only">Contraseña</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Recordarme
-        </label>
+    <div class="container">
+      <div class="py-5 text-center">
+        <h1 class="mb-6"></h1>
+        <img class="mb-2" src="img/compartir.png" alt="" height="150">
+        <h2>&mu;Solicitud</h2>
+        <p>Comparte tu perfil profesional certificado por &mu;Validate con las propuestas de trabajo que estimes conveniente. Y así tu reclutante verá que estás completamente capacitado para cargo que más quieres.</p>
       </div>
-      <!-- <button class="btn btn-lg btn-primary btn-block button" type="submit">Sign in</button> -->
-      <a href="file:///C:/Users/Benjamin/Desktop/inovation/perfil_personal.html" class="h-2 mb-2 btn btn-lg btn-primary btn-block button" name="ingresar" title="Inicio sesión">Iniciar sesión</a>
-      <li class="mb-3 list-inline-item"><a href="#">Crear cuenta nueva</a></li>
-      <!-- <a href="http://google.cl" class="btn btn-lg btn-primary btn-block button" type="submit">Ingresar</a> -->
-      <p class="mb-1">&copy; INGENIERIA UC</p>
-    </form>
+      <form class="form-signin">
+        <label for="inputEmail" class="sr-only">Correo para enviar</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required autofocus>
+        <h1 class="mb-6"></h1>
+        <!-- <button class="btn btn-lg btn-primary btn-block button" type="submit">Sign in</button> -->
+        <a href="file:///C:/Users/Benjamin/Desktop/inovation/perfil_personal.html" class="h-2 mb-2 btn btn-lg btn-primary btn-block button" name="ingresar" title="Inicio sesión">Enviar Perfil</a>
+        <!-- <a href="http://google.cl" class="btn btn-lg btn-primary btn-block button" type="submit">Ingresar</a> -->
+        <h1 class="mb-3"></h1>
+        <p class="mb-1">&copy; INGENIERIA UC</p>
+      </form>
+
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
